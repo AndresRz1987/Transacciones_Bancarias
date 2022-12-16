@@ -14,14 +14,14 @@ import lombok.Setter;
 @Getter
 @Setter
 @Entity
-@Table(name="administrador")
-public class Administrador  implements Serializable{
+@Table(name = "administrador")
+public class Administrador implements Serializable {
     @Id
-    @Column(name="id_administrador")
+    @Column(name = "id_administrador")
     private String id_administrador;
-    @Column(name="nombre_administrador")
+    @Column(name = "nombre_administrador")
     private String nombre_administrador;
-    @Column(name="clave_administrador")
+    @Column(name = "clave_administrador")
     private String clave_administrador;
 
     @Override
