@@ -10,4 +10,4 @@ public class BancaApplication {
 		SpringApplication.run(BancaApplication.class, args);
 	}
 
-}
+};
