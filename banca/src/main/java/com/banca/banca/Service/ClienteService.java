@@ -1,6 +1,6 @@
-package com.unab.banca.Service;
-import com.unab.banca.Models.Cliente;
-import com.unab.banca.Dao.ClienteDao;
+package com.banca.banca.Service;
+import com.banca.banca.Models.Cliente;
+import com.banca.banca.Dao.ClienteDao;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired; 
