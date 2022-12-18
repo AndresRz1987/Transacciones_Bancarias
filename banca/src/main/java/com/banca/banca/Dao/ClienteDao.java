@@ -6,6 +6,8 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface ClienteDao extends CrudRepository< Cliente, String>  {
-    
+
+    Cliente save(ClienteDao clienteDao2);
+
 
 }

@@ -13,8 +13,8 @@ public class AdministradorService {
     private AdministradorDao administradorDao;
 
     @Transactional(readOnly=false)
-    public Administrador save(Administrador administrador) {
-        return administradorDao.save(administrador);
+    public Administrador save(AdministradorDao obj) {
+        return administradorDao.save(obj);
     }
 
     @Transactional(readOnly=false)

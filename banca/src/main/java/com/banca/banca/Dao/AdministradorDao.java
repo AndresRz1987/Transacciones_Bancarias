@@ -6,6 +6,8 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface AdministradorDao extends CrudRepository< Administrador, String>  {
+
+    Administrador save(AdministradorDao obj);
     
 
 }

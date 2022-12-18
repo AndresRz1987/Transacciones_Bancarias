@@ -12,8 +12,8 @@ public class CuentaService {
     private CuentaDao cuentaDao;
     
     @Transactional(readOnly=false)
-    public Cuenta save(Cuenta cuenta) {
-        return cuentaDao.save(cuenta);
+    public Cuenta save(CuentaDao cuentaDao2) {
+        return cuentaDao.save(cuentaDao2);
     }
     @Transactional(readOnly=false)
     public void delete(String id) {

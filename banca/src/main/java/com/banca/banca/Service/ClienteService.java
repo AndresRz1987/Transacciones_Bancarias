@@ -13,8 +13,8 @@ public class ClienteService {
     private ClienteDao clienteDao;
 
     @Transactional(readOnly=false)
-    public Cliente save(Cliente cliente) {
-        return clienteDao.save(cliente);
+    public Cliente save(ClienteDao clienteDao2) {
+        return clienteDao.save(clienteDao2);
     }
 
     @Transactional(readOnly=false)
